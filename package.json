@@ -1,0 +1,38 @@
+{
+  "name": "gm-test",
+  "version": "0.0.1",
+  "description": "testing image edition with graphics magick",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "npx tsc -w",
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "test",
+    "graphicsmagic",
+    "typescript"
+  ],
+  "author": "Manuel Alfonso Mora Montagut",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "jest": "^29.3.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "gm": "^1.25.0"
+  }
+}
